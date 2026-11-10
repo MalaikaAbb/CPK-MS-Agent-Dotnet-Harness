@@ -1,0 +1,8 @@
+useFrontendTools(
+  reports.map((report) => ({
+    name: `open_${report.id}`,
+    description: `Open the ${report.title} report`,
+    handler: async () => navigate(`/reports/${report.id}`),
+  })),
+  [navigate],
+);

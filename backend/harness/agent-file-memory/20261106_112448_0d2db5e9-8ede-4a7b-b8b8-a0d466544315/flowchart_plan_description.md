@@ -1,0 +1,1 @@
+﻿Plan file for drawing a simple Start → Process → End flowchart.

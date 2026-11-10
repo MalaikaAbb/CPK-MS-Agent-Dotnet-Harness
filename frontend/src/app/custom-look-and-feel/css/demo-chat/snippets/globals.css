@@ -1,0 +1,42 @@
+/* VERBATIM: the three globals.css blocks from /custom-look-and-feel/css, concatenated
+   in page order. They are global selectors, so they only load on this demo route. */
+
+/* ── "v2 Design Tokens (shadcn)" ── */
+[data-copilotkit] {
+  --primary: oklch(0.55 0.22 264); /* accent / action color */
+  --primary-foreground: oklch(0.99 0 0); /* text on primary */
+  --background: oklch(1 0 0); /* surface background */
+  --foreground: oklch(0.145 0 0); /* primary text */
+  --muted: oklch(0.97 0 0); /* subtle backgrounds */
+  --border: oklch(0.922 0 0); /* dividers, outlines */
+  --radius: 0.625rem; /* global corner radius */
+}
+
+/* Dark mode is keyed off a `.dark` ancestor */
+.dark [data-copilotkit] {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --border: oklch(0.269 0 0);
+}
+
+/* ── "Custom CSS" ── */
+.copilotKitButton {
+  border-radius: 0;
+}
+
+.copilotKitMessages {
+  padding: 2rem;
+}
+
+.copilotKitUserMessage {
+  background: #007AFF;
+}
+
+/* ── "Custom Fonts" (the family name is one quoted string, as published) ── */
+.copilotKitMessages {
+  font-family: "Arial, sans-serif";
+}
+
+.copilotKitInput {
+  font-family: "Arial, sans-serif";
+}

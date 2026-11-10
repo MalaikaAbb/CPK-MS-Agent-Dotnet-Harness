@@ -1,0 +1,3 @@
+<CopilotThreadsDrawer>
+  <span slot="header">My conversations</span>
+</CopilotThreadsDrawer>

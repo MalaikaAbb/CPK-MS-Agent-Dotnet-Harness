@@ -1,0 +1,11 @@
+{
+  "name": "ms-dot-net-harness",
+  "private": true,
+  "scripts": {
+    "dev": "tools/with-env.sh npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "agent": "tools/with-env.sh dotnet run --project backend/quickstart",
+    "agent:context": "tools/with-env.sh dotnet run --project backend/agent-app-context --launch-profile http",
+    "agent:harness": "tools/with-env.sh dotnet run --project backend/harness --launch-profile http"
+  }
+}

@@ -1,0 +1,4 @@
+    handler: async ({ background }) => {
+      setBackground(background);
+      return { status: "success" };
+    },

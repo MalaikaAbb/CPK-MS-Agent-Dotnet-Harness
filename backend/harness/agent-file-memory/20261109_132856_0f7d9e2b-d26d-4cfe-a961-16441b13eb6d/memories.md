@@ -1,0 +1,3 @@
+﻿# Memory Index
+
+- **flowchart_plan.md**: Plan for drawing a simple 3-node flowchart (Start -> Process -> End).

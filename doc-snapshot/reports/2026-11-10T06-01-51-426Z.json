@@ -1,0 +1,666 @@
+{
+  "ranAt": "2026-11-10T06:01:51.426Z",
+  "baseline": true,
+  "docsRoot": "https://docs.copilotkit.ai/ms-agent-harness-dotnet",
+  "pages": [
+    {
+      "docPath": "/ms-agent-harness-dotnet",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet.md",
+      "routes": [
+        "/doc-sync"
+      ],
+      "title": "Doc drift",
+      "sha256": "a3b003bee37dfae53129fc92ed6c98c57102bdbfb4d1c6a58eb87857f599a915",
+      "bytes": 3682,
+      "lines": 89,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/ag-ui",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/ag-ui.md",
+      "routes": [
+        "/ag-ui"
+      ],
+      "title": "AG-UI",
+      "sha256": "f01e3ea229e980f0573c587afbbb291663cfbf8b5ce83332589db034f70b93e8",
+      "bytes": 4106,
+      "lines": 127,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/agent-app-context",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/agent-app-context.md",
+      "routes": [
+        "/agent-app-context"
+      ],
+      "title": "Readables (useAgentContext)",
+      "sha256": "0fd4fc627e3423abd1fcc0cf911d80a3d1fac908eeb7c53a37591600c0cd1f69",
+      "bytes": 11327,
+      "lines": 264,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/copilot-runtime",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/copilot-runtime.md",
+      "routes": [
+        "/copilot-runtime"
+      ],
+      "title": "Copilot Runtime",
+      "sha256": "bcb24943b496e6cf030ff14ecd71bdfa71cc99e706857d40db02afaf8559ff1f",
+      "bytes": 11917,
+      "lines": 285,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/custom-look-and-feel/css",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/custom-look-and-feel/css.md",
+      "routes": [
+        "/custom-look-and-feel/css"
+      ],
+      "title": "CSS Customization",
+      "sha256": "e0c0bf8f2c1c446ebaf11ff5c2198e34bb2c8616fcba6faa3514cc7af01621b8",
+      "bytes": 10220,
+      "lines": 301,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/custom-look-and-feel/headless-ui",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/custom-look-and-feel/headless-ui.md",
+      "routes": [
+        "/custom-look-and-feel/headless-ui"
+      ],
+      "title": "Headless UI",
+      "sha256": "b44002c6797f3b685944a994e57d9df00ecf808fe5a9d565dc047f20ef689056",
+      "bytes": 9653,
+      "lines": 233,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/custom-look-and-feel/markdown",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/custom-look-and-feel/markdown.md",
+      "routes": [
+        "/custom-look-and-feel/markdown"
+      ],
+      "title": "Markdown Rendering",
+      "sha256": "75df7c999de4e9243f872b6f96657764583287438a7882265e0fadcbfffb59dd",
+      "bytes": 5862,
+      "lines": 159,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/custom-look-and-feel/reasoning-messages",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/custom-look-and-feel/reasoning-messages.md",
+      "routes": [
+        "/custom-look-and-feel/reasoning-messages"
+      ],
+      "title": "Reasoning Messages",
+      "sha256": "1bbfea6d84439da67037914e70fdb064cb5e99300bad4fcd8395e05a6dfb1d3d",
+      "bytes": 6350,
+      "lines": 213,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/custom-look-and-feel/slots",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/custom-look-and-feel/slots.md",
+      "routes": [
+        "/custom-look-and-feel/slots"
+      ],
+      "title": "Slots (Subcomponents)",
+      "sha256": "d3b791da4673e0fa746795d28b96f526f5464f35a23acf4752d1a85cfc455849",
+      "bytes": 8367,
+      "lines": 278,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/frontend-tools",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/frontend-tools.md",
+      "routes": [
+        "/frontend-tools"
+      ],
+      "title": "Frontend Tools",
+      "sha256": "8880e36740691e528da39565f42d6cc8d23676c50f2b13915a29e43ebad99fca",
+      "bytes": 5861,
+      "lines": 167,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/a2ui",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/a2ui.md",
+      "routes": [
+        "/generative-ui/a2ui"
+      ],
+      "title": "A2UI",
+      "sha256": "4e1226f96f281a5480d0b736418f05bdbfee24a6b3a795846c7c23d64fc42297",
+      "bytes": 6215,
+      "lines": 166,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/a2ui/advanced",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/a2ui/advanced.md",
+      "routes": [
+        "/generative-ui/a2ui/advanced"
+      ],
+      "title": "A2UI Advanced",
+      "sha256": "698383a406beb528f5431364fa18aa8bd3515fbadd059768eb24bd84dbc9522d",
+      "bytes": 7200,
+      "lines": 225,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/a2ui/dynamic-schema",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/a2ui/dynamic-schema.md",
+      "routes": [
+        "/generative-ui/a2ui/dynamic-schema"
+      ],
+      "title": "Dynamic Schema A2UI",
+      "sha256": "706aaf55243fb3d837ee3628e759e2205cb024c5938004c08f48d0b5dea1eaf4",
+      "bytes": 22983,
+      "lines": 688,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/a2ui/fixed-schema",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/a2ui/fixed-schema.md",
+      "routes": [
+        "/generative-ui/a2ui/fixed-schema"
+      ],
+      "title": "Fixed Schema A2UI",
+      "sha256": "6bdbca13b2d1ed6f5452df76d373e8bec3a2e1fb5ba782a36da09355dae94b9d",
+      "bytes": 28520,
+      "lines": 762,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/a2ui/styling",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/a2ui/styling.md",
+      "routes": [
+        "/generative-ui/a2ui/styling"
+      ],
+      "title": "A2UI Styling",
+      "sha256": "379364f34aa1a4829026e2f654448d218c9b7fb283b1830a42bd834c64231c26",
+      "bytes": 3503,
+      "lines": 142,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/catalogs",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/catalogs.md",
+      "routes": [
+        "/generative-ui/components/catalogs"
+      ],
+      "title": "Catalogs",
+      "sha256": "b50af431e319656889325f779d4aa6c9b4cca9895ad40bbd3e2fd611eba88bfe",
+      "bytes": 13651,
+      "lines": 304,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/from-a2ui",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/from-a2ui.md",
+      "routes": [
+        "/generative-ui/components/from-a2ui"
+      ],
+      "title": "Adopt from A2UI",
+      "sha256": "4a8120b180e41e96bb7cdc57c1616efbdfd1698df5560f7447b5b97a492b75c1",
+      "bytes": 13318,
+      "lines": 206,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/markdown-mode",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/markdown-mode.md",
+      "routes": [
+        "/generative-ui/components/markdown-mode"
+      ],
+      "title": "Markdown mode",
+      "sha256": "8b47bbb7dfa0652d7e37fda8dd5c5728364a35a60e800346f001049b2d41c582",
+      "bytes": 7457,
+      "lines": 160,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/standard-catalog",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/standard-catalog.md",
+      "routes": [
+        "/generative-ui/components/standard-catalog"
+      ],
+      "title": "Standard catalog",
+      "sha256": "6bab9a1a1dee85cd7d203e0f82c35569cfb67d468e53e9016d338e2f176711c6",
+      "bytes": 13932,
+      "lines": 181,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/state-and-actions",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/state-and-actions.md",
+      "routes": [
+        "/generative-ui/components/state-and-actions"
+      ],
+      "title": "State and actions",
+      "sha256": "58cd01d15c0c6bed1b7f35a39fea1421da930682ddea5460d567c275c1f88cd4",
+      "bytes": 13961,
+      "lines": 333,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/surfaces",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/surfaces.md",
+      "routes": [
+        "/generative-ui/components/surfaces"
+      ],
+      "title": "Surfaces",
+      "sha256": "d378256c8a55287a29f24d0921541b5d5fa941a30d9e65bd407b28b6842aa9d9",
+      "bytes": 8476,
+      "lines": 210,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/theming",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/theming.md",
+      "routes": [
+        "/generative-ui/components/theming"
+      ],
+      "title": "Theming",
+      "sha256": "9fd29e6c376088733371c5862401ba5faf8ed042dfd2ae15d2f70d844d316153",
+      "bytes": 4995,
+      "lines": 156,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/components/transports",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/components/transports.md",
+      "routes": [
+        "/generative-ui/components/transports"
+      ],
+      "title": "Transports",
+      "sha256": "81db57fe6f3a8009204eb86c4674f1a79e3276fdb78420fc9963dede32c49fc6",
+      "bytes": 3954,
+      "lines": 106,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/hashbrown",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/hashbrown.md",
+      "routes": [
+        "/generative-ui/hashbrown"
+      ],
+      "title": "Hashbrown",
+      "sha256": "20a60c17809e830e61fbbd3f5eb13e3d643723b49da89086aa3f7c4b10953cbc",
+      "bytes": 12011,
+      "lines": 353,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/json-render",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/json-render.md",
+      "routes": [
+        "/generative-ui/json-render"
+      ],
+      "title": "JSON Render",
+      "sha256": "67f38d811351ff1474c25c8743de32fff89a30c8b5fed1949b07398342cc81d2",
+      "bytes": 9799,
+      "lines": 264,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/mcp-apps",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/mcp-apps.md",
+      "routes": [
+        "/generative-ui/mcp-apps"
+      ],
+      "title": "MCP Apps",
+      "sha256": "5b9b31223670ce9b6a96f1a2a4e1d68949d81451ebc429c40703a3a7de28a49e",
+      "bytes": 8494,
+      "lines": 237,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/open-generative-ui",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/open-generative-ui.md",
+      "routes": [
+        "/generative-ui/open-generative-ui"
+      ],
+      "title": "Open Generative UI",
+      "sha256": "fa78060a9a7b6bd6293396265b1b85552e3afe34739ea9dd495dd451ff498b57",
+      "bytes": 11057,
+      "lines": 284,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/reasoning",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/reasoning.md",
+      "routes": [
+        "/generative-ui/reasoning"
+      ],
+      "title": "Reasoning",
+      "sha256": "eeb1086d06b95771e9d3474d188d6fcb128ea70a0f506100c025f7abadd81a6e",
+      "bytes": 4619,
+      "lines": 131,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/tool-based",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/tool-based.md",
+      "routes": [
+        "/generative-ui/tool-based"
+      ],
+      "title": "Components as Tools",
+      "sha256": "4a6d4e42f0c035cf4634792fd0ca878c7d862d6e7a067469f1dee595084baad4",
+      "bytes": 5816,
+      "lines": 159,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/tool-rendering",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/tool-rendering.md",
+      "routes": [
+        "/generative-ui/tool-rendering"
+      ],
+      "title": "Tool Call Rendering",
+      "sha256": "de1c328f76bb6675c7cf398cbdf39340e4d6117ed5c62ce244c6d60a7f1626f3",
+      "bytes": 13044,
+      "lines": 409,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/your-components/display-only",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/your-components/display-only.md",
+      "routes": [
+        "/generative-ui/your-components/display-only"
+      ],
+      "title": "Display-only components",
+      "sha256": "880fe95dbf752b2d60a87769957d91ab4e77a06a115161029175df3dd3618487",
+      "bytes": 2475,
+      "lines": 90,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/generative-ui/your-components/interactive",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/generative-ui/your-components/interactive.md",
+      "routes": [
+        "/generative-ui/your-components/interactive"
+      ],
+      "title": "Interactive components",
+      "sha256": "766e2df4dc0bb3c5d438f0efa7b2e9be57e5f54d6b40f0dff78442a9e5cdff67",
+      "bytes": 178,
+      "lines": 6,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/headless-threads",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/headless-threads.md",
+      "routes": [
+        "/headless-threads"
+      ],
+      "title": "Headless Threads",
+      "sha256": "3e7ed1211a267beeca8a209ee8e5c29180a26a4b950eda9d3903edabf4ffa6c8",
+      "bytes": 11914,
+      "lines": 251,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/human-in-the-loop/governed-actions",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/human-in-the-loop/governed-actions.md",
+      "routes": [
+        "/human-in-the-loop/governed-actions"
+      ],
+      "title": "Governed Action Approval UI",
+      "sha256": "c3ffbf2aa5a8b697765c47f5668c9ac1f3608ae778728bb504b77c18a995214b",
+      "bytes": 7168,
+      "lines": 256,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/human-in-the-loop/index",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/human-in-the-loop/index.md",
+      "routes": [
+        "/human-in-the-loop/index"
+      ],
+      "title": "HITL Overview",
+      "sha256": "42b4872727e83c2a965b90c6d77b84c58f63e5e2a8531aafe71aa65b927855d8",
+      "bytes": 6723,
+      "lines": 198,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/multimodal-attachments",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/multimodal-attachments.md",
+      "routes": [
+        "/multimodal-attachments"
+      ],
+      "title": "Multimodal Attachments",
+      "sha256": "0f30c04eb9353fdf6bee52d3bca85553072ce3e810debc37ce0b109e2e30d2cf",
+      "bytes": 7092,
+      "lines": 197,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/prebuilt-components/chat",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/prebuilt-components/chat.md",
+      "routes": [
+        "/prebuilt-components/chat"
+      ],
+      "title": "CopilotChat",
+      "sha256": "2df890f86aa1131d2549d22490c298994dcd31db4962f6fc2f02161f372bc23f",
+      "bytes": 3556,
+      "lines": 94,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/prebuilt-components/chat-controls",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/prebuilt-components/chat-controls.md",
+      "routes": [
+        "/prebuilt-components/chat-controls"
+      ],
+      "title": "Open, close, and feedback",
+      "sha256": "1a3d0982688ebff9fb1255e687f0d60d7e7647d1fca038d6f75ef193187b322e",
+      "bytes": 6660,
+      "lines": 163,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/prebuilt-components/copilot-threads-drawer",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/prebuilt-components/copilot-threads-drawer.md",
+      "routes": [
+        "/prebuilt-components/copilot-threads-drawer"
+      ],
+      "title": "Threads Drawer",
+      "sha256": "4a0661d4376868a742a2028623109962b81ed71733732788082aa73600b99bd7",
+      "bytes": 13726,
+      "lines": 336,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/prebuilt-components/popup",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/prebuilt-components/popup.md",
+      "routes": [
+        "/prebuilt-components/popup"
+      ],
+      "title": "CopilotPopup",
+      "sha256": "0d31e44596fada3e3b64011a3aef498cf6455a07a557e34dda48efcb172493d2",
+      "bytes": 2899,
+      "lines": 81,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/prebuilt-components/sidebar",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/prebuilt-components/sidebar.md",
+      "routes": [
+        "/prebuilt-components/sidebar"
+      ],
+      "title": "CopilotSidebar",
+      "sha256": "6d41d7cb155ad4dc96362879529e644dab6540c881f569ae7c7964ff0a7aae94",
+      "bytes": 3119,
+      "lines": 83,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/quickstart",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/quickstart.md",
+      "routes": [
+        "/quickstart"
+      ],
+      "title": "Quickstart (bring your own agent)",
+      "sha256": "a9bed4023586de3152c75284c731d54e085f97022f3cf9c62a6405aae8a19199",
+      "bytes": 23894,
+      "lines": 588,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/shared-state/agent-readonly",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/shared-state/agent-readonly.md",
+      "routes": [
+        "/shared-state/agent-readonly"
+      ],
+      "title": "Agent Read-Only Context",
+      "sha256": "aacdc28c1f6a6ce9d6d01ab4ea71fa7c7dcdfb7c5e2813995c5da63b86528f15",
+      "bytes": 4753,
+      "lines": 138,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/shared-state/rendering-in-app",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/shared-state/rendering-in-app.md",
+      "routes": [
+        "/shared-state/rendering-in-app"
+      ],
+      "title": "Render agent state in your app",
+      "sha256": "88b19f7dd58627bcf49bba68e2f93ce069d6c3089600b08af9a95d197630ea59",
+      "bytes": 5288,
+      "lines": 146,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/voice",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/voice.md",
+      "routes": [
+        "/voice"
+      ],
+      "title": "Voice",
+      "sha256": "1ebdbbdadec960d2b418e6e5d6e103d76a4803c7db373542b6f1d1e9a4689b7b",
+      "bytes": 9273,
+      "lines": 203,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    },
+    {
+      "docPath": "/ms-agent-harness-dotnet/webmcp",
+      "url": "https://docs.copilotkit.ai/ms-agent-harness-dotnet/webmcp.md",
+      "routes": [
+        "/webmcp"
+      ],
+      "title": "WebMCP",
+      "sha256": "11ee63ce43653b9abb21c0095b581b51488aeba280f147c4b077436a0cbf10d5",
+      "bytes": 7502,
+      "lines": 165,
+      "outcome": "new",
+      "severity": "none",
+      "hunks": []
+    }
+  ],
+  "sitemap": {
+    "newUnmapped": [],
+    "confirmedRemoved": [],
+    "urlsUnderRoot": 175
+  },
+  "counts": {
+    "unchanged": 0,
+    "changed": 0,
+    "new": 46,
+    "missing": 0,
+    "unstable": 0,
+    "error": 0
+  },
+  "highest": "none",
+  "durationMs": 3349
+}

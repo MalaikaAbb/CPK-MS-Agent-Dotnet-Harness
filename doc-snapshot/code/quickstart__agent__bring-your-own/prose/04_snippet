@@ -1,0 +1,4 @@
+npm run install:agent
+# or manually:
+cd agent
+uv sync

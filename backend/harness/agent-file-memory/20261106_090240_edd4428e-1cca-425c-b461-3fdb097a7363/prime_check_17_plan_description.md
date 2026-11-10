@@ -1,0 +1,1 @@
+﻿Plan file for checking if 17 is prime; includes todo references and steps.

@@ -1,0 +1,8 @@
+type GovernedAction = {
+  id: string;
+  summary: string;
+  tool: string;
+  reference: string;
+  verdict: "allow" | "deny" | "require_approval";
+  arguments: Record<string, unknown>;
+};

@@ -1,0 +1,3 @@
+<button onClick={() => config.setModalOpen(!config.isModalOpen)}>
+  {config.isModalOpen ? "Close chat" : "Open chat"}
+</button>

@@ -1,0 +1,1 @@
+dotnet --version  # Should be 9.0.x or higher

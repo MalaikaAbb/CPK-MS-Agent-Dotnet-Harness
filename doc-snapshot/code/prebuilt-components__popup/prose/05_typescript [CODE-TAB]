@@ -1,0 +1,11 @@
+    <CopilotKit runtimeUrl="/api/copilotkit" agent="prebuilt-popup">
+      <MainContent />
+      <CopilotPopup
+        agentId="prebuilt-popup"
+        defaultOpen={true}
+        labels={{
+          chatInputPlaceholder: "Ask the popup anything...",
+        }}
+      />
+      <Suggestions />
+    </CopilotKit>

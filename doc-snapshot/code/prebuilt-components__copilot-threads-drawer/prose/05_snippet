@@ -1,0 +1,4 @@
+copilotkit-threads-drawer::part(new-thread-button),
+copilotkit-threads-drawer::part(launcher-new-thread) {
+  display: none;
+}

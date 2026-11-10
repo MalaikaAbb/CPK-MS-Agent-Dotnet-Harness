@@ -1,0 +1,8 @@
+function toggleItem(id: string) {
+  agent.setState({
+    ...agent.state,
+    items: (agent.state?.items ?? []).map((it) =>
+      it.id === id ? { ...it, done: !it.done } : it,
+    ),
+  });
+}

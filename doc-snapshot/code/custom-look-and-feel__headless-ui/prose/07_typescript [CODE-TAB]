@@ -1,0 +1,19 @@
+  if (message.role === "assistant") {
+    body = renderAssistantBody({
+      message: message as AssistantMessage,
+      messages,
+      renderToolCall,
+    });
+  } else if (message.role === "user") {
+    body = renderUserBody(message as UserMessage);
+  } else if (message.role === "reasoning") {
+    body = (
+      <CopilotChatReasoningMessage
+        message={message as ReasoningMessage}
+        messages={messages}
+        isRunning={isRunning}
+      />
+    );
+  } else if (message.role === "activity") {
+    body = renderActivityMessage(message as ActivityMessage);
+  }

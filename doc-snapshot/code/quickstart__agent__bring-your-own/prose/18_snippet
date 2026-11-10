@@ -1,0 +1,2 @@
+npx create-next-app@latest my-copilot-app
+cd my-copilot-app

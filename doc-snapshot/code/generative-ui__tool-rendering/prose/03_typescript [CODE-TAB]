@@ -1,0 +1,5 @@
+  // Opt in to CopilotKit's built-in default tool-call card. Called with
+  // no config so the package-provided `DefaultToolCallRenderer` is used
+  // as the wildcard renderer — this is the "out-of-the-box" UI the cell
+  // is meant to showcase.
+  useDefaultRenderTool();

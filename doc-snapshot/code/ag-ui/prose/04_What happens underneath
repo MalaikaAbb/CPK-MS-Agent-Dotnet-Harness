@@ -1,0 +1,2 @@
+// useAgent() → registry checks /info → resolves a proxy agent
+// agent.runAgent() → runtime POST → agent execution → SSE events

@@ -1,0 +1,14 @@
+# .NET
+bin/
+obj/
+
+# Node / Next
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# env
+.env
+.env.*
+!.env.example

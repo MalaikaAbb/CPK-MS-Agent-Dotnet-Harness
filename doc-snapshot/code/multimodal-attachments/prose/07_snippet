@@ -1,0 +1,13 @@
+<CopilotChat
+  attachments={{
+    enabled: true,
+    accept: "image/*",
+    maxSize: 5 * 1024 * 1024, // 5MB
+    onUploadFailed: (error) => {
+      // error.reason: "file-too-large" | "invalid-type" | "upload-failed"
+      // error.file: the original File object
+      // error.message: human-readable description
+      toast.error(error.message);
+    },
+  }}
+/>

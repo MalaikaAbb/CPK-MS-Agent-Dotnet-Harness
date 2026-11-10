@@ -1,0 +1,17 @@
+function ControlledChat() {
+  const [threadId, setThreadId] = useState(() => crypto.randomUUID());
+  const startNew = () => setThreadId(crypto.randomUUID());
+
+  return (
+    <CopilotChatConfigurationProvider threadId={threadId}>
+      <CopilotThreadsDrawer
+        onThreadSelect={(id) => setThreadId(id)}
+        onNewThread={startNew}
+      />
+      <button type="button" onClick={startNew}>
+        New conversation
+      </button>
+      <CopilotChat />
+    </CopilotChatConfigurationProvider>
+  );
+}

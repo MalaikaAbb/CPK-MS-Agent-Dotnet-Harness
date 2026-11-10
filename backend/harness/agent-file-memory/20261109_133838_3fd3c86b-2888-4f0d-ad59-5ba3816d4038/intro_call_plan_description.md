@@ -1,0 +1,1 @@
+﻿Short plan for booking intro call with sales; includes todos and clarifying question.

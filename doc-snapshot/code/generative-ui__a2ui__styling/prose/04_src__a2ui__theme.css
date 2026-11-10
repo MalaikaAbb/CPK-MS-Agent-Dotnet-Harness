@@ -1,0 +1,14 @@
+/* Constrain logos and avatars */
+.a2ui-surface img {
+  max-width: 28px;
+  max-height: 28px;
+  border-radius: 4px;
+}
+
+/* Smaller status indicator icons */
+.a2ui-surface img[alt="On Time"],
+.a2ui-surface img[alt="Delayed"] {
+  max-width: 10px;
+  max-height: 10px;
+  border-radius: 50%;
+}

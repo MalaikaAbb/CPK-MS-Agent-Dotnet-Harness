@@ -1,0 +1,12 @@
+onUpload: async (file) => {
+  const url = await uploadToStorage(file);
+  return {
+    type: "url",
+    value: url,
+    mimeType: file.type,
+    metadata: {
+      uploadedBy: currentUser.id,
+      category: "support-ticket",
+    },
+  };
+},

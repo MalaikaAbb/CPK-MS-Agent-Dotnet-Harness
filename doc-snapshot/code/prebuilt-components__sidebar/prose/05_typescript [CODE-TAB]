@@ -1,0 +1,5 @@
+    <CopilotKit runtimeUrl="/api/copilotkit" agent="prebuilt-sidebar">
+      <MainContent />
+      <CopilotSidebar agentId="prebuilt-sidebar" defaultOpen={true} />
+      <Suggestions />
+    </CopilotKit>

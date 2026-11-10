@@ -1,0 +1,3 @@
+uv init my-agent
+cd my-agent
+uv add agent-framework-ag-ui python-dotenv uvicorn agent-framework-openai

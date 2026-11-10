@@ -1,0 +1,11 @@
+import { CopilotKitCSSProperties } from "@copilotkit/react-ui";
+
+<div
+  style={
+    {
+      "--copilot-kit-primary-color": "#222222",
+    } as CopilotKitCSSProperties
+  }
+>
+  <CopilotSidebar />
+</div>

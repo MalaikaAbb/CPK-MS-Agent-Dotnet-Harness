@@ -1,0 +1,1 @@
+﻿Plan for creating a Q4 sales dashboard with metric, pie chart, and bar chart. Save for session continuity.

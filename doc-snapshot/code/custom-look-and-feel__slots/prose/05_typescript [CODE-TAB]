@@ -1,0 +1,13 @@
+import type {
+  CopilotChatAssistantMessage,
+  CopilotChatInput,
+  CopilotChatView,
+} from "@copilotkit/react-core/v2";
+
+declare const CustomWelcomeScreen: React.ComponentType;
+declare const CustomAssistantMessage: React.ComponentType;
+declare const CustomDisclaimer: React.ComponentType;
+
+export function ChatSlotsTeachingExtracts() {
+  const welcomeScreen =
+    CustomWelcomeScreen as unknown as typeof CopilotChatView.WelcomeScreen;

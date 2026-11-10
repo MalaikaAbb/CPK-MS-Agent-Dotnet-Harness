@@ -1,0 +1,9 @@
+<CopilotChat
+  messageView={{
+    assistantMessage: {
+      markdownRenderer: {
+        /* ... */
+      },
+    },
+  }}
+/>

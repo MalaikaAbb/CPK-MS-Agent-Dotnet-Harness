@@ -1,0 +1,9 @@
+import { HttpAgent } from "@ag-ui/client";
+
+const myAgent = new HttpAgent({
+  url: "https://my-agent.example.com",
+});
+
+<CopilotKit agents__unsafe_dev_only={{ "my-agent": myAgent }}>
+  <YourApp />
+</CopilotKit>;

@@ -1,0 +1,7 @@
+<CopilotChat
+  attachments={{
+    enabled: true,
+    maxConcurrentUploads: 3, // three files at a time
+    onUpload: async (file) => uploadToStorage(file),
+  }}
+/>

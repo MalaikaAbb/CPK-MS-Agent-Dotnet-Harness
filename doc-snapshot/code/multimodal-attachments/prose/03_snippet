@@ -1,0 +1,14 @@
+<CopilotChat
+  attachments={{
+    enabled: true,
+    onUpload: async (file) => {
+      const buffer = await file.arrayBuffer();
+      const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)));
+      return {
+        type: "data",
+        value: base64,
+        mimeType: file.type,
+      };
+    },
+  }}
+/>

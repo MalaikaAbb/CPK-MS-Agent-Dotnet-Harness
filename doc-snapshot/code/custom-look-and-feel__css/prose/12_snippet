@@ -1,0 +1,6 @@
+<CopilotChat
+  icons={{
+    openIcon: <YourOpenIconComponent />,
+    closeIcon: <YourCloseIconComponent />,
+  }}
+/>

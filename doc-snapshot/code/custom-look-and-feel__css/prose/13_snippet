@@ -1,0 +1,7 @@
+<CopilotChat
+  labels={{
+    welcomeMessageText: "Hello! How can I help you today?",
+    modalHeaderTitle: "My Copilot",
+    chatInputPlaceholder: "Ask me anything!",
+  }}
+/>

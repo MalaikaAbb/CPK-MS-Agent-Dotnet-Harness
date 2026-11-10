@@ -1,0 +1,21 @@
+import { useEffect } from "react";
+import { useAgent } from "@copilotkit/react-core/v2";
+
+function EventLog() {
+  const { agent } = useAgent({ agentId: "research-agent" });
+
+  useEffect(() => {
+    const subscription = agent.subscribe({
+      onTextMessageContentEvent({ textMessageBuffer }) {
+        console.log("Streaming text:", textMessageBuffer);
+      },
+      onToolCallEndEvent({ toolCallName, toolCallArgs }) {
+        console.log("Tool called:", toolCallName, toolCallArgs);
+      },
+      onStateChanged({ agent }) {
+        console.log("State changed:", agent.state);
+      },
+    });
+    return () => subscription.unsubscribe();
+  }, [agent]);
+}

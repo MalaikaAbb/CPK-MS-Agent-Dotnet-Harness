@@ -1,0 +1,12 @@
+  useAgentContext({
+    description: "The currently logged-in user's display name",
+    value: userName,
+  });
+  useAgentContext({
+    description: "The user's IANA timezone (used when mentioning times)",
+    value: userTimezone,
+  });
+  useAgentContext({
+    description: "The user's recent activity in the app, newest first",
+    value: recentActivity,
+  });

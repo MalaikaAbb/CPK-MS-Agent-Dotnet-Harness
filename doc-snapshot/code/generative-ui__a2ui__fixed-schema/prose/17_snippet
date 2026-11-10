@@ -1,0 +1,12 @@
+{
+  "Button": {
+    "label": "Book",
+    "action": {
+      "name": "book_flight",
+      "context": [
+        { "key": "flightNumber", "value": { "path": "/flightNumber" } },
+        { "key": "price", "value": { "path": "/price" } }
+      ]
+    }
+  }
+}

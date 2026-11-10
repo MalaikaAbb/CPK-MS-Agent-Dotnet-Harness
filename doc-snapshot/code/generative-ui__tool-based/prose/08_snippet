@@ -1,0 +1,3 @@
+import { CopilotChatToolCallsView } from "@copilotkit/react-core/v2";
+
+<CopilotChatToolCallsView message={assistantMessage} messages={allMessages} />;

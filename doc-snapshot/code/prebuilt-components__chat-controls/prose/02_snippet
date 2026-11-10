@@ -1,0 +1,15 @@
+import { useCopilotChatConfiguration } from "@copilotkit/react-core/v2";
+
+function OpenChatButton() {
+  const config = useCopilotChatConfiguration();
+
+  // setModalOpen is only present when a provider in the tree owns modal state
+  // (the prebuilt CopilotPopup / CopilotSidebar create it for you).
+  if (!config?.setModalOpen) return null;
+
+  return (
+    <button onClick={() => config.setModalOpen(true)}>
+      Ask the assistant
+    </button>
+  );
+}

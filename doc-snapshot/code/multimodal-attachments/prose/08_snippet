@@ -1,0 +1,6 @@
+<CopilotChat
+  attachments={{ enabled: true }}
+  onError={(event) => {
+    console.error(`[${event.code}]`, event.error.message);
+  }}
+/>

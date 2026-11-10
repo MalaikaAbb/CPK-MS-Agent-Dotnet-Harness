@@ -1,0 +1,11 @@
+# OpenAI (agent/.env)
+OPENAI_API_KEY=sk-...your-openai-key-here...
+OPENAI_CHAT_MODEL_ID=gpt-5.4-mini
+# or Azure OpenAI (agent/.env)
+AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
+AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-5.4-mini
+# Optional when az login is unavailable:
+# AZURE_OPENAI_API_KEY=...
+
+# Run the agent
+uv run main.py

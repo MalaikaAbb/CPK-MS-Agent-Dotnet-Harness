@@ -1,0 +1,3 @@
+import { A2UIMiddleware } from "@ag-ui/a2ui-middleware";
+
+agent.use(new A2UIMiddleware({ injectA2UITool: false }));

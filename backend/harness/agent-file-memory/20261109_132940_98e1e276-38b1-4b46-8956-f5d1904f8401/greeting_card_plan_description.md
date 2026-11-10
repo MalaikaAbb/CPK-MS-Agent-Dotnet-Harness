@@ -1,0 +1,1 @@
+﻿Plan and todo list for building a greeting-card UI.

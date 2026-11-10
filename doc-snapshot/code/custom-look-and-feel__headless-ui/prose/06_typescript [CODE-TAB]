@@ -1,0 +1,76 @@
+import React, { useMemo } from "react";
+import type {
+  Message,
+  AssistantMessage,
+  UserMessage,
+  ReasoningMessage,
+  ActivityMessage,
+  ToolMessage,
+} from "@ag-ui/core";
+import {
+  CopilotChatReasoningMessage,
+  useRenderToolCall,
+  useRenderActivityMessage,
+  useRenderCustomMessages,
+} from "@copilotkit/react-core/v2";
+
+/**
+ * Manual per-message composition for the TRULY headless chat cell.
+ *
+ * This hook mirrors — line-for-line in spirit — the role-dispatch that happens
+ * inside `renderMessageBlock` in the canonical primitive:
+ *
+ *   packages/react-core/src/v2/components/chat/CopilotChatMessageView.tsx:542-612
+ *
+ * The point of this cell is to demonstrate that the FULL generative-UI weave
+ * (assistant text + tool-call renders + reasoning + activity + custom before /
+ * after slots) can be re-composed from the low-level hooks directly, without
+ * importing `<CopilotChatMessageView>` or `<CopilotChatAssistantMessage>`.
+ * Only the reasoning-message LEAF component is imported — it's a pure
+ * presentational primitive, not a dispatcher.
+ *
+ * Return shape: the original messages, each augmented with a `renderedContent`
+ * field that the parent list drops directly into a `<UserBubble>` or
+ * `<AssistantBubble>` chrome wrapper.
+ *
+ * Text rendering: we intentionally use plain text (a `<div>` with
+ * `whitespace-pre-wrap`) rather than a markdown pipeline. Rationale: the cell's
+ * goal is to show what "truly headless" looks like — every piece of composition
+ * lives in user code — so pulling in a markdown library here would re-hide
+ * a chunk of formatting decisions behind an opaque black box. Apps that want
+ * markdown can drop Streamdown / react-markdown in at this exact line.
+ */
+export type RenderedMessage = Message & { renderedContent: React.ReactNode };
+
+export function useRenderedMessages(
+  messages: Message[],
+  isRunning: boolean,
+): RenderedMessage[] {
+  const renderToolCall = useRenderToolCall();
+  const { renderActivityMessage } = useRenderActivityMessage();
+  const renderCustomMessage = useRenderCustomMessages();
+
+  return useMemo(() => {
+    return messages.map((message): RenderedMessage => {
+      const renderedContent = renderMessageContent({
+        message,
+        messages,
+        isRunning,
+        renderToolCall,
+        renderActivityMessage,
+        renderCustomMessage,
+      });
+      return { ...message, renderedContent } as RenderedMessage;
+    });
+    // `renderToolCall`, `renderActivityMessage`, and `renderCustomMessage` are
+    // callbacks produced by their respective hooks; their identity turns over
+    // whenever the underlying registries / agent / config change, which is
+    // exactly when we want to recompute.
+  }, [
+    messages,
+    isRunning,
+    renderToolCall,
+    renderActivityMessage,
+    renderCustomMessage,
+  ]);
+}

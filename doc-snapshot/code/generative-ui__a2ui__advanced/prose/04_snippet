@@ -1,0 +1,15 @@
+{
+  "id": "book-button",
+  "component": "Button",
+  "child": "book-label",
+  "variant": "primary",
+  "action": {
+    "event": {
+      "name": "book_flight",
+      "context": {
+        "flightNumber": { "path": "flightNumber" },
+        "price": { "path": "price" }
+      }
+    }
+  }
+}

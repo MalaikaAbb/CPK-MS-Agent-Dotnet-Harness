@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- HarnessAgentOptions is [Experimental("MAAI001")]; the build fails until it is suppressed.
+         No doc page mentions this. -->
+    <NoWarn>$(NoWarn);MAAI001</NoWarn>
+    <UserSecretsId>ce96deb6-3e07-4ff3-907c-53b994ae80a0</UserSecretsId>
+  </PropertyGroup>
+
+  <!-- No doc page installs Microsoft.Agents.AI.Harness or names versions. The pages'
+       AsHarnessAgent(int, int, options) call exists only up to Harness 1.9.0-preview, which is
+       binary-incompatible with Microsoft.Agents.AI 1.19 (the Quickstart's pins) — MissingMethodException
+       at startup — so this server uses the whole 1.9 line, the era the showcase Program.cs was written
+       for (its AddAGUI/MapAGUI exist only there). -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Agents.AI.Harness" Version="1.9.0-preview.260603.1" />
+    <PackageReference Include="Microsoft.Agents.AI.Hosting.AGUI.AspNetCore" Version="1.9.0-preview.260603.1" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.9.0" />
+  </ItemGroup>
+
+</Project>

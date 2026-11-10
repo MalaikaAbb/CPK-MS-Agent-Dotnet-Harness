@@ -1,0 +1,2 @@
+error TS2353: Object literal may only specify known properties,
+and '"reference-chip"' does not exist in type 'Components'.

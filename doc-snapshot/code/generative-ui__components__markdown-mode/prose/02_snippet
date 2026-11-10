@@ -1,0 +1,14 @@
+
+Each line is one A2UI v1.0 operation. The UI is plain text, so this works with any AG-UI agent that streams text.
+
+## Turn it on#
+
+Set the markdown transport on the provider:
+
+```app/providers.tsx
+import { CopilotKitProvider } from "@copilotkit/react-core/v2";
+import { standardUI } from "@copilotkit/react-core/v2/generative-ui";
+
+<CopilotKitProvider runtimeUrl="/api/copilotkit" generativeUI={{ ui: standardUI, transport: "markdown" }}>
+  {children}
+</CopilotKitProvider>;

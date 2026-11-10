@@ -1,0 +1,7 @@
+{
+  name: "book_flight",
+  surfaceId: "flight-search-results",
+  sourceComponentId: "book-button",
+  timestamp: "2025-01-01T00:00:00.000Z",
+  context: { flightNumber: "AA100", price: "$350" },
+}

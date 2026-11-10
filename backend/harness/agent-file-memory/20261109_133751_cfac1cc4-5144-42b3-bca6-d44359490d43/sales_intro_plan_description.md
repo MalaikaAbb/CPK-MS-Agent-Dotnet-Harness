@@ -1,0 +1,1 @@
+﻿Short plan for booking a sales intro call; stores todo list and next steps.

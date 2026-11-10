@@ -1,0 +1,28 @@
+function renderAssistantBody(args: {
+  message: AssistantMessage;
+  messages: Message[];
+  renderToolCall: ReturnType<typeof useRenderToolCall>;
+}): React.ReactNode {
+  const { message, messages, renderToolCall } = args;
+  const text = message.content ?? "";
+  const hasText = text.trim().length > 0;
+  const toolCalls = message.toolCalls ?? [];
+
+  return (
+    <>
+      {hasText && <div className="whitespace-pre-wrap break-words">{text}</div>}
+      {toolCalls.map((toolCall) => {
+        // Tool result lives on a sibling `tool`-role message keyed by toolCallId.
+        // Mirrors CopilotChatToolCallsView (react-core/v2/components/chat/CopilotChatToolCallsView.tsx).
+        const toolMessage = messages.find(
+          (m) => m.role === "tool" && m.toolCallId === toolCall.id,
+        ) as ToolMessage | undefined;
+        return (
+          <React.Fragment key={toolCall.id}>
+            {renderToolCall({ toolCall, toolMessage })}
+          </React.Fragment>
+        );
+      })}
+    </>
+  );
+}

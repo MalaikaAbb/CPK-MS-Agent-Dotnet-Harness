@@ -1,0 +1,9 @@
+import { useAgent } from "@copilotkit/react-core/v2";
+
+function AgentStatus() {
+  const { agent } = useAgent({ agentId: "research-agent" });
+
+  // agent.messages  — conversation history
+  // agent.state     — current shared state
+  // agent.isRunning — whether the agent is running
+}

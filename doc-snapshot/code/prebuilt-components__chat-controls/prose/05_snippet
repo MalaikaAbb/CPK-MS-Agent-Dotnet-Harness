@@ -1,0 +1,14 @@
+import { CopilotChat } from "@copilotkit/react-core/v2";
+
+<CopilotChat
+  messageView={{
+    assistantMessage: {
+      onThumbsUp: (message) => {
+        analytics.track("feedback", { messageId: message.id, value: "up" });
+      },
+      onThumbsDown: (message) => {
+        analytics.track("feedback", { messageId: message.id, value: "down" });
+      },
+    },
+  }}
+/>;

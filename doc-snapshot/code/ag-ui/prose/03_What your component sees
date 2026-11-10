@@ -1,0 +1,4 @@
+const { agent } = useAgent();
+agent.messages;
+agent.state;
+agent.subscribe({ /* … */ });

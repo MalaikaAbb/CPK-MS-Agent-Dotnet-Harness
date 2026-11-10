@@ -1,0 +1,15 @@
+  // Wildcard catch-all for anything that doesn't match a per-tool
+  // renderer above.
+  useDefaultRenderTool(
+    {
+      render: ({ name, parameters, status, result }) => (
+        <CustomCatchallRenderer
+          name={name}
+          parameters={parameters}
+          status={status as CatchallToolStatus}
+          result={result}
+        />
+      ),
+    },
+    [],
+  );

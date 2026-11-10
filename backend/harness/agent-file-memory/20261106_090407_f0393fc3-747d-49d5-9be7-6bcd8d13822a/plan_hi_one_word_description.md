@@ -1,0 +1,1 @@
+﻿Plan for responding with a one-word greeting and building a sandbox UI.

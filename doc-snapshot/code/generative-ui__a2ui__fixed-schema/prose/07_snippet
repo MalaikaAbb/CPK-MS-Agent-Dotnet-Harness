@@ -1,0 +1,6 @@
+Card
+ └─ Column
+     ├─ Title        ("Flight Details")
+     ├─ Row          (Airport → Arrow → Airport)
+     ├─ Row          (AirlineBadge · PriceTag)
+     └─ Button       (Book)

@@ -1,0 +1,23 @@
+// The `mcpApps.servers` config is all you need server-side. The runtime
+// auto-applies the MCP Apps middleware to every registered agent: on each
+// MCP tool call it fetches the associated UI resource and emits an
+// `activity` event that the built-in `MCPAppsActivityRenderer` renders
+// inline in the chat.
+const runtime = new CopilotRuntime({
+  // @ts-ignore -- Published CopilotRuntime agents type wraps Record in MaybePromise<NonEmptyRecord<...>> which rejects plain Records; fixed in source, pending release
+  agents: {
+    "mcp-apps": mcpAppsAgent,
+    "headless-complete": headlessCompleteAgent,
+  },
+  mcpApps: {
+    servers: [
+      {
+        type: "http",
+        url: process.env.MCP_SERVER_URL || "https://mcp.excalidraw.com",
+        // Keep the server id 1:1 with langgraph-python so persisted MCP Apps
+        // and fixture-backed resource calls use the same identity.
+        serverId: "excalidraw",
+      },
+    ],
+  },
+});

@@ -1,0 +1,3 @@
+    <CopilotKit runtimeUrl="/api/copilotkit" agent="agentic_chat">
+      <Chat />
+    </CopilotKit>

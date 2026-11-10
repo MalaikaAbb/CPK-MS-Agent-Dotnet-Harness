@@ -1,0 +1,7 @@
+<CopilotKit
+  runtimeUrl="/api/copilotkit"
+  useSingleEndpoint={false}
+  a2ui={{ theme: myCustomTheme }}
+>
+  {children}
+</CopilotKit>

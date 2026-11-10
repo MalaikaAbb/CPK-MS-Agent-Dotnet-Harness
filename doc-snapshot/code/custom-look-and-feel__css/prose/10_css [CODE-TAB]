@@ -1,0 +1,39 @@
+/* User message — a "transmission" in JetBrains Mono on a paper card. The
+ * outer wrapper is the right-aligning flex column; we leave it transparent
+ * and style the inner bubble (which uses cpk:bg-muted, hence we also
+ * target the substring class as a stable hook). */
+.chat-css-demo-scope .copilotKitMessage.copilotKitUserMessage {
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.chat-css-demo-scope
+  .copilotKitMessage.copilotKitUserMessage
+  > [class*="bg-muted"] {
+  font-family: var(--halcyon-mono);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--halcyon-ink);
+  background: var(--halcyon-paper-elevated);
+  border: 1px solid var(--halcyon-rule);
+  border-left: 2px solid var(--halcyon-ember);
+  border-radius: 0;
+  padding: 12px 16px 12px 18px;
+  letter-spacing: -0.005em;
+  line-height: 1.55;
+  box-shadow: 0 1px 0 rgba(26, 23, 20, 0.03);
+  position: relative;
+}
+
+/* A mono "→" marker before the user's text to read like a CLI prompt. */
+.chat-css-demo-scope
+  .copilotKitMessage.copilotKitUserMessage
+  > [class*="bg-muted"]::before {
+  content: "→";
+  display: inline-block;
+  margin-right: 10px;
+  color: var(--halcyon-ember);
+  font-weight: 500;
+}

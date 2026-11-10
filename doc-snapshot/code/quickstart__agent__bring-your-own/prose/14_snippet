@@ -1,0 +1,2 @@
+dotnet user-secrets set OPENAI_API_KEY "<your-openai-api-key>"
+dotnet run

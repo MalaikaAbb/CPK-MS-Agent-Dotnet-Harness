@@ -1,0 +1,8 @@
+<CopilotChat
+  messageView={{
+    reasoningMessage: {
+      header: CustomHeader,
+      contentView: CustomContent,
+    },
+  }}
+/>

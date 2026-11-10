@@ -1,0 +1,1 @@
+﻿Simple plan file for checking primality of 17; save for session memory.

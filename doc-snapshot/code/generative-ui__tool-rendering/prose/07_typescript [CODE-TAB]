@@ -1,0 +1,16 @@
+  // `useDefaultRenderTool` is a convenience wrapper around
+  // `useRenderTool({ name: "*", ... })` — a single wildcard renderer
+  // that handles every tool call not claimed by a named renderer.
+  useDefaultRenderTool(
+    {
+      render: ({ name, parameters, status, result }) => (
+        <CustomCatchallRenderer
+          name={name}
+          parameters={parameters}
+          status={status as CatchallToolStatus}
+          result={result}
+        />
+      ),
+    },
+    [],
+  );

@@ -1,0 +1,14 @@
+const A2UIMessageRenderer = createA2UIMessageRenderer({
+  theme,
+  onAction: (action) => {
+    if (action.name !== "book_flight") return;
+
+    return {
+      ...action,
+      context: {
+        ...(action.context ?? {}),
+        source: "a2ui",
+      },
+    };
+  },
+});

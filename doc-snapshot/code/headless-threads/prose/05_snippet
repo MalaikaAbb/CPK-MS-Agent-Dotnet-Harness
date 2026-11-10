@@ -1,0 +1,5 @@
+const { agent } = useAgent({
+  agentId: `chat-${threadId}`, // local id, unique per mounted thread
+  runtimeAgentId: "default",   // the one runtime agent they all route to
+  threadId,                    // the thread this instance is pinned to
+});
