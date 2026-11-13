@@ -839,6 +839,17 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/shared-state/streaming",
+        title: "State Streaming",
+        docPath: "/ms-agent-harness-dotnet/shared-state/streaming",
+        slug: "shared-state__streaming",
+        summary: "Streaming a tool argument into a state key token by token, watched with useAgent (OnStateChanged + OnRunStatusChanged).",
+        status: "broken",
+        statusNote: "Reference-only: the rendered page says \"Not supported on MS Agent Harness (.NET)\" (Shared State: Streaming) and publishes no .NET backend, only a useAgent fragment.",
+        docGap: "The page shows a \"Not supported on MS Agent Harness (.NET)\" callout and no Code tab. The state-streaming-setup block and the state-streaming-middleware region are skipped for .NET, so there is no backend mapping of write_document.document to the document state key, and no agent. The only code is a useAgent fragment for agentId \"shared-state-streaming\" (same fragment as State Rendering), kept as text in _doc/. No agent, runtime route or demo.",
+        impl: ["frontend/src/app/shared-state/streaming/_doc/shared-state-streaming-page.fragment.txt"],
+      },
+      {
         path: "/shared-state/rendering-in-app",
         title: "Render agent state in your app",
         docPath: "/ms-agent-harness-dotnet/shared-state/rendering-in-app",
