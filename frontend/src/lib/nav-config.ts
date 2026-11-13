@@ -480,6 +480,17 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/generative-ui/state-rendering",
+        title: "State Rendering",
+        docPath: "/ms-agent-harness-dotnet/generative-ui/state-rendering",
+        slug: "generative-ui__state-rendering",
+        summary: "Rendering agent state live in custom UI by subscribing to state and run-status changes with useAgent.",
+        status: "broken",
+        statusNote: "Reference-only: the rendered page says \"Not supported on MS Agent Harness (.NET)\" (Shared State: Streaming) and publishes no .NET agent or setup, only a useAgent fragment.",
+        docGap: "The page's interactive demo (shared-state-streaming) is not bundled for .NET: no Code tab, the backend setup and the state-streaming-middleware region are skipped, and the page shows a \"Not supported on MS Agent Harness (.NET)\" callout. The only code is a useAgent fragment for agentId \"shared-state-streaming\" (an agent no page publishes), kept as text in _doc/. No agent, runtime route or demo.",
+        impl: ["frontend/src/app/generative-ui/state-rendering/_doc/shared-state-streaming-page.fragment.txt"],
+      },
+      {
         path: "/generative-ui/tool-rendering",
         title: "Tool Call Rendering",
         docPath: "/ms-agent-harness-dotnet/generative-ui/tool-rendering",
