@@ -889,6 +889,17 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/human-in-the-loop/headless",
+        title: "Headless Interrupts",
+        docPath: "/ms-agent-harness-dotnet/human-in-the-loop/headless",
+        slug: "human-in-the-loop__headless",
+        summary: "A Promise-resolving useFrontendTool (schedule_meeting) whose picker lives outside the chat; render returns null.",
+        status: "broken",
+        statusNote: "Reference-only: the rendered page says \"Not supported on MS Agent Harness (.NET)\" (Human in the Loop: Headless Interrupts) and prints only a useFrontendTool fragment, no agent.",
+        docGap: "The page shows a \"Not supported on MS Agent Harness (.NET)\" callout and no Code tab. Its only code is the useFrontendTool({ name: \"schedule_meeting\" … }) call cut from src/app/demos/interrupt-headless/page.tsx: setPending, resolverRef, PickerResult, the picker popup, the provider and the agent it talks to are all unpublished. Kept as text in _doc/; no agent, runtime route or demo.",
+        impl: ["frontend/src/app/human-in-the-loop/headless/_doc/interrupt-headless-page.fragment.txt"],
+      },
+      {
         path: "/human-in-the-loop/governed-actions",
         title: "Governed Action Approval UI",
         docPath: "/ms-agent-harness-dotnet/human-in-the-loop/governed-actions",
