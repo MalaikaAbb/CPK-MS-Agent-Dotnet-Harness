@@ -976,6 +976,20 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/troubleshooting/migrate-to-v2",
+        title: "Migrate to V2",
+        docPath: "/ms-agent-harness-dotnet/troubleshooting/migrate-to-v2",
+        slug: "troubleshooting__migrate-to-v2",
+        summary: "Reference: moving v1 react-core / react-ui imports, hooks and styles to @copilotkit/react-core/v2. The backend is unchanged.",
+        status: "reference",
+        statusNote: "Reference page, nothing to run. Every route in this repo already uses the v2 imports; the page's \"After\" example and hook import are type-checked in _doc/.",
+        docGap: "The hook table maps useCopilotChat to useCopilotChatHeadless_c as the low-level headless chat, but @copilotkit/react-core 1.85.0 exports that hook only from the v1 root entry, not from @copilotkit/react-core/v2. The full example renders <YourApp />, which the page never defines (@ts-expect-error). The page's @ag-ui/client@1.0.2 install line matches @copilotkit/runtime 1.85.0's own pin, as in this repo.",
+        impl: [
+          "frontend/src/app/troubleshooting/migrate-to-v2/_doc/full-example-after.tsx",
+          "frontend/src/app/troubleshooting/migrate-to-v2/_doc/hook-imports-after.tsx",
+        ],
+      },
+      {
         path: "/agent-app-context",
         title: "Readables (useAgentContext)",
         docPath: "/ms-agent-harness-dotnet/agent-app-context",
