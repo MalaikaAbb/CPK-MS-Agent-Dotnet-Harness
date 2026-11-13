@@ -874,6 +874,21 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/human-in-the-loop/useInterrupt",
+        title: "Pausing the Agent for Input",
+        docPath: "/ms-agent-harness-dotnet/human-in-the-loop/useInterrupt",
+        slug: "human-in-the-loop__useInterrupt",
+        summary: "useInterrupt: render an agent interrupt, resolve or cancel it (standard and legacy flows, multi-interrupt), plus the frontend-tool Promise shim.",
+        status: "broken",
+        statusNote: "Reference-only: the rendered page says \"Not supported on MS Agent Harness (.NET)\" (Human in the Loop: Interrupts). Its frontend handler is a missing snippet and the C# is a method fragment of an unpublished factory.",
+        docGap: "The page shows a \"Not supported on MS Agent Harness (.NET)\" callout and no Code tab. The frontend-promise-handler region is missing for .NET (\"snippet skipped\"), so the page prints no schedule_meeting frontend tool. agent/InterruptAgent.cs is only the CreateInterruptAgent() method: its class (InterruptAgentFactory), fields, SystemPrompt and SharedStateAgent are unpublished, and it calls AsLunaChatClient() (defined nowhere) and the Harness-only AsHarnessAgent. The Approve/Cancel and multi-interrupt useInterrupt snippets are fragments with no imports or provider. All kept as text in _doc/; no agent, runtime route or demo.",
+        impl: [
+          "frontend/src/app/human-in-the-loop/useInterrupt/_doc/InterruptAgent.fragment.cs.txt",
+          "frontend/src/app/human-in-the-loop/useInterrupt/_doc/approval-interrupt.fragment.txt",
+          "frontend/src/app/human-in-the-loop/useInterrupt/_doc/multi-interrupt.fragment.txt",
+        ],
+      },
+      {
         path: "/human-in-the-loop/governed-actions",
         title: "Governed Action Approval UI",
         docPath: "/ms-agent-harness-dotnet/human-in-the-loop/governed-actions",

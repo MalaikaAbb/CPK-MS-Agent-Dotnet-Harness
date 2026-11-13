@@ -1,0 +1,25 @@
+// agent/InterruptAgent.cs
+    public AIAgent CreateInterruptAgent()
+    {
+        var chatClient = _openAiClient.GetChatClient("gpt-6-luna").AsLunaChatClient();
+
+        // No backend fallback tool is registered. If the frontend tool is
+        // missing, the demo should fail visibly instead of bypassing the
+        // picker with a server-side response.
+        var harnessAgent = chatClient.AsHarnessAgent(
+            HarnessMaxContextWindowTokens,
+            HarnessMaxOutputTokens,
+            new HarnessAgentOptions
+            {
+                Name = "InterruptAgent",
+                Description = "Interrupt scheduling assistant (NOT-SUPPORTED) powered by Microsoft Agent Harness over Microsoft Agent Framework.",
+                ChatOptions = new ChatOptions
+                {
+                    Instructions = SystemPrompt,
+                    MaxOutputTokens = HarnessMaxOutputTokens,
+                    Tools = [],
+                },
+            });
+
+        return new SharedStateAgent(harnessAgent, _jsonSerializerOptions, _loggerFactory.CreateLogger<SharedStateAgent>());
+    }
