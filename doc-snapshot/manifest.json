@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "docsRoot": "https://docs.copilotkit.ai/ms-agent-harness-dotnet",
-  "syncedAt": "2026-11-10T06:20:29.227Z",
+  "syncedAt": "2026-11-13T11:11:46.764Z",
   "pages": {
     "/ms-agent-harness-dotnet": {
       "file": "ms-agent-harness-dotnet.md",
@@ -13,7 +13,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/ag-ui": {
       "file": "ms-agent-harness-dotnet__ag-ui.md",
@@ -25,7 +25,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/agent-app-context": {
       "file": "ms-agent-harness-dotnet__agent-app-context.md",
@@ -37,7 +37,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/copilot-runtime": {
       "file": "ms-agent-harness-dotnet__copilot-runtime.md",
@@ -49,7 +49,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/custom-look-and-feel/css": {
       "file": "ms-agent-harness-dotnet__custom-look-and-feel__css.md",
@@ -61,19 +61,19 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/custom-look-and-feel/headless-ui": {
       "file": "ms-agent-harness-dotnet__custom-look-and-feel__headless-ui.md",
-      "sha256": "b44002c6797f3b685944a994e57d9df00ecf808fe5a9d565dc047f20ef689056",
-      "bytes": 9653,
+      "sha256": "399d28e75c4aae3589f60a2e997d91546bedbee872170aaf2a9352a15c64c207",
+      "bytes": 9733,
       "lines": 233,
       "routes": [
         "/custom-look-and-feel/headless-ui"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/custom-look-and-feel/markdown": {
       "file": "ms-agent-harness-dotnet__custom-look-and-feel__markdown.md",
@@ -85,7 +85,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/custom-look-and-feel/reasoning-messages": {
       "file": "ms-agent-harness-dotnet__custom-look-and-feel__reasoning-messages.md",
@@ -97,7 +97,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/custom-look-and-feel/slots": {
       "file": "ms-agent-harness-dotnet__custom-look-and-feel__slots.md",
@@ -109,7 +109,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/frontend-tools": {
       "file": "ms-agent-harness-dotnet__frontend-tools.md",
@@ -121,7 +121,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/a2ui": {
       "file": "ms-agent-harness-dotnet__generative-ui__a2ui.md",
@@ -133,7 +133,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/a2ui/advanced": {
       "file": "ms-agent-harness-dotnet__generative-ui__a2ui__advanced.md",
@@ -145,31 +145,31 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:47 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/a2ui/dynamic-schema": {
       "file": "ms-agent-harness-dotnet__generative-ui__a2ui__dynamic-schema.md",
-      "sha256": "706aaf55243fb3d837ee3628e759e2205cb024c5938004c08f48d0b5dea1eaf4",
-      "bytes": 22983,
-      "lines": 688,
+      "sha256": "0c143b09612e448165e01a8305d3d3802cca7b04b7bc925f2236e6fc7b4938f4",
+      "bytes": 23139,
+      "lines": 689,
       "routes": [
         "/generative-ui/a2ui/dynamic-schema"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/a2ui/fixed-schema": {
       "file": "ms-agent-harness-dotnet__generative-ui__a2ui__fixed-schema.md",
-      "sha256": "6bdbca13b2d1ed6f5452df76d373e8bec3a2e1fb5ba782a36da09355dae94b9d",
-      "bytes": 28520,
+      "sha256": "f6d0ee3a266544158f3ba9a7819bcf0fecb010c5dba5b7684aa7ce14b709e82e",
+      "bytes": 28694,
       "lines": 762,
       "routes": [
         "/generative-ui/a2ui/fixed-schema"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:30 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/a2ui/styling": {
       "file": "ms-agent-harness-dotnet__generative-ui__a2ui__styling.md",
@@ -181,103 +181,103 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/catalogs": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__catalogs.md",
-      "sha256": "b50af431e319656889325f779d4aa6c9b4cca9895ad40bbd3e2fd611eba88bfe",
-      "bytes": 13651,
-      "lines": 304,
+      "sha256": "85c702e6c0e95598f7c1368ff5e1c4241ce2f54d6df174ca40a7ff59b41068cc",
+      "bytes": 23851,
+      "lines": 520,
       "routes": [
         "/generative-ui/components/catalogs"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/from-a2ui": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__from-a2ui.md",
-      "sha256": "4a8120b180e41e96bb7cdc57c1616efbdfd1698df5560f7447b5b97a492b75c1",
-      "bytes": 13318,
-      "lines": 206,
+      "sha256": "203ed0a14d80b979a89bb86d1d0b6145493aba3dd6614859d70944ed8a581b41",
+      "bytes": 16768,
+      "lines": 279,
       "routes": [
         "/generative-ui/components/from-a2ui"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/markdown-mode": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__markdown-mode.md",
-      "sha256": "8b47bbb7dfa0652d7e37fda8dd5c5728364a35a60e800346f001049b2d41c582",
-      "bytes": 7457,
-      "lines": 160,
+      "sha256": "fd3260c175808cf729ab0a00002d2d0a55e81736e1902e4b355e5841c3f71ac4",
+      "bytes": 8774,
+      "lines": 188,
       "routes": [
         "/generative-ui/components/markdown-mode"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/standard-catalog": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__standard-catalog.md",
-      "sha256": "6bab9a1a1dee85cd7d203e0f82c35569cfb67d468e53e9016d338e2f176711c6",
-      "bytes": 13932,
-      "lines": 181,
+      "sha256": "81c73b0ee01441ac8e929b0f351c84e6b48cecf84e68d6394d744c2d57ff7731",
+      "bytes": 16223,
+      "lines": 238,
       "routes": [
         "/generative-ui/components/standard-catalog"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/state-and-actions": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__state-and-actions.md",
-      "sha256": "58cd01d15c0c6bed1b7f35a39fea1421da930682ddea5460d567c275c1f88cd4",
-      "bytes": 13961,
-      "lines": 333,
+      "sha256": "0082c6bd72d420d029760a62c77e70b0c3f7c3d09862a2f0bca0053fd016d694",
+      "bytes": 23532,
+      "lines": 556,
       "routes": [
         "/generative-ui/components/state-and-actions"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/surfaces": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__surfaces.md",
-      "sha256": "d378256c8a55287a29f24d0921541b5d5fa941a30d9e65bd407b28b6842aa9d9",
-      "bytes": 8476,
-      "lines": 210,
+      "sha256": "8a884b20530c84c29a98f85947a5e81e26b57a675af4356a4b2d69d641581b41",
+      "bytes": 21308,
+      "lines": 427,
       "routes": [
         "/generative-ui/components/surfaces"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/theming": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__theming.md",
-      "sha256": "9fd29e6c376088733371c5862401ba5faf8ed042dfd2ae15d2f70d844d316153",
-      "bytes": 4995,
-      "lines": 156,
+      "sha256": "b1ee300fc29a543ff3a6a7adf16ba887f7271b9a2729e890b79454b8ed0b3993",
+      "bytes": 6815,
+      "lines": 203,
       "routes": [
         "/generative-ui/components/theming"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/components/transports": {
       "file": "ms-agent-harness-dotnet__generative-ui__components__transports.md",
-      "sha256": "81db57fe6f3a8009204eb86c4674f1a79e3276fdb78420fc9963dede32c49fc6",
-      "bytes": 3954,
-      "lines": 106,
+      "sha256": "8573ef14118d5bdb4c9f791a20f5aa3d8fa9c8e4839e356615f15043f0d64c2b",
+      "bytes": 5171,
+      "lines": 139,
       "routes": [
         "/generative-ui/components/transports"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/hashbrown": {
       "file": "ms-agent-harness-dotnet__generative-ui__hashbrown.md",
@@ -289,7 +289,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/json-render": {
       "file": "ms-agent-harness-dotnet__generative-ui__json-render.md",
@@ -301,7 +301,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/mcp-apps": {
       "file": "ms-agent-harness-dotnet__generative-ui__mcp-apps.md",
@@ -313,7 +313,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:31 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/open-generative-ui": {
       "file": "ms-agent-harness-dotnet__generative-ui__open-generative-ui.md",
@@ -325,19 +325,19 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/reasoning": {
       "file": "ms-agent-harness-dotnet__generative-ui__reasoning.md",
-      "sha256": "eeb1086d06b95771e9d3474d188d6fcb128ea70a0f506100c025f7abadd81a6e",
-      "bytes": 4619,
+      "sha256": "f420b721de160e64396ecd9ee54f84f6ec8ae39453e5e99555520857dc757cc0",
+      "bytes": 4753,
       "lines": 131,
       "routes": [
         "/generative-ui/reasoning"
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/tool-based": {
       "file": "ms-agent-harness-dotnet__generative-ui__tool-based.md",
@@ -349,7 +349,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:48 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/tool-rendering": {
       "file": "ms-agent-harness-dotnet__generative-ui__tool-rendering.md",
@@ -361,7 +361,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/your-components/display-only": {
       "file": "ms-agent-harness-dotnet__generative-ui__your-components__display-only.md",
@@ -373,7 +373,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/generative-ui/your-components/interactive": {
       "file": "ms-agent-harness-dotnet__generative-ui__your-components__interactive.md",
@@ -385,7 +385,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/headless-threads": {
       "file": "ms-agent-harness-dotnet__headless-threads.md",
@@ -397,7 +397,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/human-in-the-loop/governed-actions": {
       "file": "ms-agent-harness-dotnet__human-in-the-loop__governed-actions.md",
@@ -409,7 +409,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/human-in-the-loop/index": {
       "file": "ms-agent-harness-dotnet__human-in-the-loop__index.md",
@@ -421,7 +421,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/multimodal-attachments": {
       "file": "ms-agent-harness-dotnet__multimodal-attachments.md",
@@ -433,7 +433,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/prebuilt-components/chat": {
       "file": "ms-agent-harness-dotnet__prebuilt-components__chat.md",
@@ -445,7 +445,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/prebuilt-components/chat-controls": {
       "file": "ms-agent-harness-dotnet__prebuilt-components__chat-controls.md",
@@ -457,7 +457,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/prebuilt-components/copilot-threads-drawer": {
       "file": "ms-agent-harness-dotnet__prebuilt-components__copilot-threads-drawer.md",
@@ -469,7 +469,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/prebuilt-components/popup": {
       "file": "ms-agent-harness-dotnet__prebuilt-components__popup.md",
@@ -481,7 +481,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/prebuilt-components/sidebar": {
       "file": "ms-agent-harness-dotnet__prebuilt-components__sidebar.md",
@@ -493,7 +493,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/quickstart": {
       "file": "ms-agent-harness-dotnet__quickstart.md",
@@ -505,7 +505,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:32 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/shared-state/agent-readonly": {
       "file": "ms-agent-harness-dotnet__shared-state__agent-readonly.md",
@@ -517,7 +517,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:33 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/shared-state/rendering-in-app": {
       "file": "ms-agent-harness-dotnet__shared-state__rendering-in-app.md",
@@ -529,7 +529,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:33 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     },
     "/ms-agent-harness-dotnet/voice": {
       "file": "ms-agent-harness-dotnet__voice.md",
@@ -541,7 +541,7 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:33 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:50 GMT"
     },
     "/ms-agent-harness-dotnet/webmcp": {
       "file": "ms-agent-harness-dotnet__webmcp.md",
@@ -553,11 +553,11 @@
       ],
       "status": "ok",
       "age": 0,
-      "date": "Tue, 10 Nov 2026 06:20:33 GMT"
+      "date": "Fri, 13 Nov 2026 11:11:49 GMT"
     }
   },
   "sitemap": {
-    "fetchedAt": "2026-11-10T06:20:29.227Z",
+    "fetchedAt": "2026-11-13T11:11:46.764Z",
     "urlsUnderRoot": 175,
     "knownUnmapped": [
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/AG-UI-Streams",
@@ -599,6 +599,7 @@
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/arcade",
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/claude-managed-agents",
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/daytona",
+      "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/google-antigravity",
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/jev-generative-ui",
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/manufact",
       "https://docs.copilotkit.ai/ms-agent-harness-dotnet/cookbook/openbox-governed-copilotkit",
