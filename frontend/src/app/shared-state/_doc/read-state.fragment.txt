@@ -1,0 +1,8 @@
+// src/app/demos/shared-state-read-write/page.tsx
+  // Subscribe the component to agent state changes. Any time the agent
+  // mutates its state (e.g. via its `set_notes` tool) this hook fires,
+  // we re-render, and the sidebar panels reflect the new values.
+  const { agent } = useAgent({
+    agentId: "shared-state-read-write",
+    updates: [UseAgentUpdate.OnStateChanged],
+  });
