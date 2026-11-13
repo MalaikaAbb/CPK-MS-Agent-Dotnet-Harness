@@ -634,7 +634,7 @@ export const NAV: NavGroup[] = [
         summary: "Moving an a2ui/createCatalog setup to generativeUI/createGenerativeUI.",
         status: "broken",
         statusNote: "Agent name fixed (HARNESS FIX). Still broken: the .NET hosting drops run context, so the catalog never reaches the model. Details below.",
-        docGap: `${COMPONENTS_GAP} Airport, Arrow and myCatalog are never defined.`,
+        docGap: `${COMPONENTS_GAP} Airport, Arrow and myCatalog are never defined. The new "Use 1.0 with the React a2ui renderer" snippets import basicCatalogV1 and DynamicStringSchemaV1 from @copilotkit/a2ui-renderer, which the pinned 1.85.0 does not export, so they are shown as text only (Code panel), not built.`,
         demos: [{ href: "/generative-ui/components/from-a2ui/demo-chat", label: "After: appUI" }],
         tryIt: { prompts: ["Show a flight from SFO to JFK", "Show an airport card for LHR, London"], expect: "Needs the context gap closed to render agent UI." },
         impl: ["frontend/src/app/generative-ui/components/from-a2ui/demo-chat/page.tsx", "frontend/src/app/generative-ui/components/from-a2ui/demo-chat/appui.tsx"],
