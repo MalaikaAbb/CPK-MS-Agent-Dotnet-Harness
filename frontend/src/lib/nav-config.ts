@@ -824,6 +824,21 @@ export const NAV: NavGroup[] = [
     title: "Interactivity",
     routes: [
       {
+        path: "/shared-state",
+        title: "Shared State",
+        docPath: "/ms-agent-harness-dotnet/shared-state",
+        slug: "shared-state",
+        summary: "Two-way agent state: read it with useAgent (OnStateChanged), write it with agent.setState, render it in a NotesCard.",
+        status: "broken",
+        statusNote: "Reference-only: the page prints fragments of a shared-state-read-write demo whose .NET agent and setup are not published for this framework.",
+        docGap: "The shared-state-setup block is \"not bundled for ms-agent-harness-dotnet\" and there is no Code tab, so no agent is published: the snippets target agentId \"shared-state-read-write\" (SharedStateReadWriteAgentFactory and PreferencesInjectorMiddleware are unpublished; README §9.1). The useAgent and handlePreferencesChange snippets are fragments of an unpublished page.tsx (RWAgentState, Preferences, notes undefined). NotesCard has no imports: Card, CardHeader, CardTitle, CardDescription, CardContent, Button and NotesCardProps are never defined. The streaming section's state-streaming-middleware snippet is missing for .NET and the page shows \"Not supported on MS Agent Harness (.NET)\" for Shared State: Streaming. All kept as text in _doc/; no agent, runtime route or demo.",
+        impl: [
+          "frontend/src/app/shared-state/_doc/read-state.fragment.txt",
+          "frontend/src/app/shared-state/_doc/write-state.fragment.txt",
+          "frontend/src/app/shared-state/_doc/notes-card.fragment.txt",
+        ],
+      },
+      {
         path: "/shared-state/rendering-in-app",
         title: "Render agent state in your app",
         docPath: "/ms-agent-harness-dotnet/shared-state/rendering-in-app",
