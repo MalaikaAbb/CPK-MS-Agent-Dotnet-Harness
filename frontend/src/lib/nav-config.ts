@@ -520,6 +520,24 @@ export const NAV: NavGroup[] = [
     title: "Generative UI · Components and surfaces",
     routes: [
       {
+        path: "/generative-ui/components",
+        title: "Components and surfaces",
+        docPath: "/ms-agent-harness-dotnet/generative-ui/components",
+        slug: "generative-ui__components",
+        summary: "Overview: give the provider the standard catalog and the agent renders real components in the chat (Try it, React tab).",
+        status: "broken",
+        statusNote: "Agent name fixed (HARNESS FIX). Still broken: the .NET hosting drops run context, so the catalog never reaches the model. Details below.",
+        docGap: `${COMPONENTS_GAP} Try it's step 2 builds a TanStack BuiltInAgent in the runtime route (with its own system prompt and @tanstack/ai packages). Per this repo's rule that each framework runs its own agents, it is not built (kept as text in _doc/); the demo uses the existing /api/copilotkit runtime and the Quickstart MyAgent, so the snippet's system prompt ("…render it with generative UI.") is not applied. The page's app/layout.tsx is a root layout, so only its <Providers> wrapper is used, in the demo's layout.`,
+        demos: [{ href: "/generative-ui/components/demo-chat", label: "Try it: standardUI + CopilotChat" }],
+        tryIt: { prompts: ["Compare three phone plans in a table", "Show me a card with a title and a button"], expect: "Needs the context gap closed to render agent UI." },
+        impl: [
+          "frontend/src/app/generative-ui/components/demo-chat/providers.tsx",
+          "frontend/src/app/generative-ui/components/demo-chat/page.tsx",
+          "frontend/src/app/generative-ui/components/demo-chat/layout.tsx",
+          "frontend/src/app/generative-ui/components/_doc/route.tanstack.ts.txt",
+        ],
+      },
+      {
         path: "/generative-ui/components/surfaces",
         title: "Surfaces",
         docPath: "/ms-agent-harness-dotnet/generative-ui/components/surfaces",
