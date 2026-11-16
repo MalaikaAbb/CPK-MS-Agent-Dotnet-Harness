@@ -976,6 +976,21 @@ export const NAV: NavGroup[] = [
         ],
       },
       {
+        path: "/multi-agent/subagents",
+        title: "Sub-agents",
+        docPath: "/ms-agent-harness-dotnet/multi-agent/subagents",
+        slug: "multi-agent__subagents",
+        summary: "A supervisor that delegates to research / writing / critique sub-agents exposed as tools, with a live delegation log from shared state.",
+        status: "broken",
+        statusNote: "Reference-only: the page's SubagentsAgent.cs can't be built (AsLunaChatClient is defined nowhere), so there is no agent, runtime route or demo.",
+        docGap: `${REFERENCE_ONLY("/subagents", "agent/SubagentsAgent.cs (backend/docs_verbatim/SubagentsAgent.cs.txt)")} SubagentsAgent.cs calls GetChatClient("gpt-6-luna").AsLunaChatClient(), an extension no package or page defines, plus the Harness-only AsHarnessAgent(int, int, options). The Code-tab page.tsx imports ./subagent-activity-card (SubAgentActivityCard), ./demo-layout (DemoLayout), ./active-subagent (inferActiveSubAgent) and ./suggestions, none of them published; delegation-log.tsx is complete. Both frontend files are kept verbatim in the route's _doc/ folder (type-checked, not mounted).`,
+        impl: [
+          "frontend/src/app/multi-agent/subagents/_doc/page.tsx",
+          "frontend/src/app/multi-agent/subagents/_doc/delegation-log.tsx",
+          "backend/docs_verbatim/SubagentsAgent.cs.txt",
+        ],
+      },
+      {
         path: "/agent-app-context",
         title: "Readables (useAgentContext)",
         docPath: "/ms-agent-harness-dotnet/agent-app-context",
