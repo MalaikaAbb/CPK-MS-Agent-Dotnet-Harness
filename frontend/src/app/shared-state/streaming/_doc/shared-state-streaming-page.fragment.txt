@@ -1,0 +1,8 @@
+// src/app/demos/shared-state-streaming/page.tsx
+  // Subscribe to BOTH state changes and run-status changes. The former
+  // drives the per-token document rerender; the latter toggles the
+  // "LIVE" badge when the agent starts / stops.
+  const { agent } = useAgent({
+    agentId: "shared-state-streaming",
+    updates: [UseAgentUpdate.OnStateChanged, UseAgentUpdate.OnRunStatusChanged],
+  });
