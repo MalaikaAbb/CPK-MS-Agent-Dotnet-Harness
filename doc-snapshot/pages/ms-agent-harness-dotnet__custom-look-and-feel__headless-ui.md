@@ -205,7 +205,7 @@ The `UserBubble` and `AssistantBubble` components are **pure chrome**: they rece
 function UserBubble({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex justify-end">
-      <div className="max-w-[75%] rounded-2xl rounded-br-sm bg-[#010507] text-white px-4 py-2 text-sm whitespace-pre-wrap break-words">
+      <div className="max-w-[75%] rounded-2xl rounded-br-sm bg-[#010507] text-white px-4 py-2 text-sm whitespace-pre-wrap break-words dark:bg-primary dark:text-primary-foreground">
         {children}
       </div>
     </div>
@@ -217,7 +217,7 @@ function AssistantBubble({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex justify-start">
       <div className="max-w-[85%] flex flex-col gap-2">
-        <div className="rounded-2xl rounded-bl-sm bg-[#F0F0F4] text-[#010507] px-4 py-2 text-sm">
+        <div className="rounded-2xl rounded-bl-sm bg-[#F0F0F4] text-[#010507] px-4 py-2 text-sm dark:bg-muted dark:text-foreground">
           {children}
         </div>
       </div>
